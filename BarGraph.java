@@ -84,17 +84,6 @@ public class BarGraph{
             orniDayStreak[d] = -1;
             fosDayStreak[d] = -1;
         }
-
-  /*
-  List<Person> peopleList = new ArrayList();
-  for (int i = 0; i < PEOPLE_COUNT; i++){
-    if (textFile[1].split(",")[i+1].equals("Fossils")){
-      peopleList.add(new Person(parts[i+1], textFile[1].split(",")[i+1]));
-    }
-  }
-  people = peopleList.toArray(new Person[peopleList.size()]);
-  PEOPLE_COUNT = peopleList.size();
-  */
         for (int d  = 0; d < DAY_LEN; d++){
             for (Person person : people) {
                 if (person.values[d] > maxes[d])
