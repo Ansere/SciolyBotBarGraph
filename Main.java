@@ -88,7 +88,6 @@ public class Main extends PApplet{
         }
 
         videoExport = new VideoExport(this, "outputtedVideo.mp4");
-        videoExport.setAudioFileName("C:\\Users\\aidan\\Downloads\\All_Izz_Square.mp3");
         videoExport.startMovie();
     }
     public void draw(){
